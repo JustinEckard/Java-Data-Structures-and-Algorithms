@@ -28,5 +28,64 @@ public class Hello {
         float f = 123.0034f; // You need to add the f as a suffix modifier this can also be F
         System.out.println(f);
         */
+
+        // Decision statements
+
+        // if statement , can use operamnds like < , > , <= , >= , == , != , OR statements work with || and and statements with &&
+        /*        int x = 3;
+
+        if (x == 2) {
+            System.out.println("x was equal to 2");
+        }else if (x == 3){
+            System.out.println("x was equal to 3");
+        } else {
+            System.out.println("x was not equal to 2 or 3");
+        }
+
+        // Shorthand for an if statement, this is useful for quick and easy stuff, like null checks also called the ternary operator
+
+        String n = x == 2 ? "x was equal to 2" : "x was not equal to 2"; // this returns a value so it must be assigned to a variable to be used
+        System.out.println(n);
+
+
+        // Switch statements
+
+        int i = 3;
+        switch (i) {
+            case 1 : System.out.println("i was 1"); break; // the break will stop the code from executing so the rest wont run, in the case you need the rest to run you can leave the "break" out
+            case 2 : System.out.println("i was 2"); break;
+            case 3 : System.out.println("i was 3"); break;
+        }
+
+        // Loops 
+
+        while (x < 5) {
+            System.out.println(x); // evaluates first 3,4
+            x++;
+        }
+
+        x = 2;
+
+        do {
+            System.out.println(x); // this will prin once first then it will evaluate 2,3,4
+            x++;
+        } while(x<5);
+
+        for (int y = 0 ; y < 23 ; y++){
+            System.out.println(y);  // Prints 0 - 22 , the top bound is excluded as it is < not = 
+        }
+
+        // for-each loop
+
+        int arr[] = {1,2,3,4,5,6,7};
+
+        for (int j : arr) {
+            System.out.println(j);  // prints one to 7 , this is going to be super useful later for looping through arrays
+        }
+
+        !! all loops can be exited with a break statement inside the loop if a condition is met along the way
+
+        */
+
     }
 }
