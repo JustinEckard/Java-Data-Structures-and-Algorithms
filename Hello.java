@@ -1,13 +1,10 @@
-/**
- * Hello
- */
 public class Hello {
 
     public static void main(String[] args) {
-        chapter1();
+        // chapter1_1();
     }
 
-    public static void chapter1(){
+    public static void chapter1_1(){
         System.out.println("Chapter 1 rudimentary Java\n");
 
         /* 
@@ -87,5 +84,20 @@ public class Hello {
 
         */
 
+        // Exception handling
+        
+        /*
+         * try {
+         * something that can result in an error
+         * } catch (exception-type exception-name) {
+         * System.out.println("Error Massage");
+         * throw e; this handles the exception instead of ignoring it
+         * }
+         * 
+         */
+
     }
+
+
+
 }
